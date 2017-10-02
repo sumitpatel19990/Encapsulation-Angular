@@ -5,7 +5,7 @@ import {ViewEncapsulation} from '@angular/core';
   selector: 'app-root',
   template:`<h1>Sumit Patel</h1><app-another></app-another><app-new></app-new>`,
   styles: [`h1{color:red;}`],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.Native
 })
 export class AppComponent {
   title = 'Angular App';
